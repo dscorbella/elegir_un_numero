@@ -3,14 +3,23 @@
 
 ## Instrucciones
 - Ejecución del programa: Asegúrate de tener instalado Python en tu sistema. Luego, clona este repositorio en tu máquina local utilizando el siguiente comando:  
-git clone https://github.com/tu-usuario/nombre-del-repositorio.git
-- Ubicación del archivo: Navega a la carpeta donde has clonado el repositorio y accede al directorio del juego.  
+```shell
+git clone https://github.com/dscorbella/elegir_un_numero.git
+```
+- Ubicación del archivo: Navega a la carpeta donde has clonado el repositorio y accede al directorio del juego.
+```shell
 cd nombre-del-repositorio
-- Ejecutar el juego: Ejecuta el siguiente comando para iniciar el juego:  
-python elige_numero.py
-- Jugar: Elige un número en tu mente y sigue las instrucciones que te da el programa.   
-- Elige si el ordenador lo acierte mediante azar (opción '1') o mediante un algoritmo (opción '2').  
-- Responde con "-" si el número propuesto es mayor que tu número elegido, "+" si es menor, o "0" si el ordenador ha acertado el número.  
+```
+- Ejecutar el juego: Ejecuta el siguiente comando para iniciar el juego:
+```shell
+py -m elegir_numero.py
+```
+- Jugar: Piensa un número y sigue las instrucciones que te da el programa.   
+- Elige cómo quieres que el programa acierte el número: al azar (opción '1') o mediante un algoritmo (opción '2').  
+- Responde con "-" si el número propuesto es mayor que tu número elegido, "+" si es menor, o "0" si el ordenador ha acertado el número.
+
+<br>
+
 ¡Diviértete y no hagas trampas ;-)!: El ordenador intentará adivinar tu número en la menor cantidad de intentos posible. ¿Podrá adivinarlo rápidamente?  
 
 ## Contribuciones
